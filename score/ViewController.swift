@@ -7,19 +7,43 @@
 //
 
 import UIKit
-
+ var x : Int = 0
+ var y : Int = 0
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+    
+    @IBOutlet weak var A: UITextField!
+    @IBOutlet weak var B: UITextField!
+   
+    @IBAction func Aadd(_ sender: UIButton) {
+        x = x + 1
+        A.text = "\(x)"
+    }
+    @IBAction func Badd(_ sender: Any) {
+        y = y + 1
+        B.text = "\(y)"
+    }
+    
+    @IBAction func Aback(_ sender: UIButton) {
+        A.text = "\(x)"
+        x = x - 1
+        A.text = "\(x)"
+    }
+    @IBAction func Bback(_ sender: UIButton) {
+        B.text = "\(y)"
+        y = y - 1
+        B.text = "\(y)"
+    }
+    
 
-
+    
+    
 }
-

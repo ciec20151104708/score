@@ -14,6 +14,7 @@
 		8E68FB901E88B192008B5C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E68FB8E1E88B192008B5C64 /* LaunchScreen.storyboard */; };
 		8E68FB9B1E88B192008B5C64 /* scoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FB9A1E88B192008B5C64 /* scoreTests.swift */; };
 		8E68FBA61E88B192008B5C64 /* scoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E68FBA51E88B192008B5C64 /* scoreUITests.swift */; };
+		8ED182581E8B5E1800520252 /* pingpang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ED182571E8B5E1800520252 /* pingpang.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8E68FBA11E88B192008B5C64 /* scoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E68FBA51E88B192008B5C64 /* scoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoreUITests.swift; sourceTree = "<group>"; };
 		8E68FBA71E88B192008B5C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ED182571E8B5E1800520252 /* pingpang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pingpang.jpg; path = ../../../Downloads/pingpang.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8E68FB8C1E88B192008B5C64 /* Assets.xcassets */,
 				8E68FB8E1E88B192008B5C64 /* LaunchScreen.storyboard */,
 				8E68FB911E88B192008B5C64 /* Info.plist */,
+				8ED182571E8B5E1800520252 /* pingpang.jpg */,
 			);
 			path = score;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				8E68FB901E88B192008B5C64 /* LaunchScreen.storyboard in Resources */,
 				8E68FB8D1E88B192008B5C64 /* Assets.xcassets in Resources */,
 				8E68FB8B1E88B192008B5C64 /* Main.storyboard in Resources */,
+				8ED182581E8B5E1800520252 /* pingpang.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = score/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.imnu.score;
@@ -424,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = score/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.imnu.score;
@@ -505,6 +511,7 @@
 				8E68FBAC1E88B192008B5C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E68FBAD1E88B192008B5C64 /* Build configuration list for PBXNativeTarget "scoreTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				8E68FBAF1E88B192008B5C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E68FBB01E88B192008B5C64 /* Build configuration list for PBXNativeTarget "scoreUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				8E68FBB21E88B192008B5C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
